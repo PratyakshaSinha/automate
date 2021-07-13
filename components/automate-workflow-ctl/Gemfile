@@ -5,10 +5,10 @@ gem "httpclient"
 gem "mixlib-config"
 gem "mixlib-install"
 gem "mixlib-shellout"
-gem "train"
+gem "train", ">= 2.0.5"
 
-gem "chef", "~> 12.21"
-gem "ohai", "~> 8.24"
+gem "chef", "~> 12.22", ">= 12.22.5"
+gem "ohai", "~> 8.26", ">= 8.26.1"
 
 group :development, :test do
   gem "pry"
